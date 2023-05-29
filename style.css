@@ -35,10 +35,28 @@ nav{
     padding: 20px 100px;
 }
 nav .logo_section{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #f1f1f1;
     font-weight: 600;
     letter-spacing: 0.1rem;
+}
+.nav_items{
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+.nav_items ul{
+    display: block;
+}
+.nav_items li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.nav_items li a{
+    font-size: 1.2rem;
+    color: #cecece;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
 }
 
 
