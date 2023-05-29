@@ -171,6 +171,24 @@ nav .logo_section{
     }
 }
 
+@media screen and ( max-width: 425px) {
+    nav{
+        padding: 15px 40px;
+    }
+    nav.fixed{
+        padding: 10px 40px;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+    nav{
+        padding: 15px 20px;
+    }
+    nav.fixed{
+        padding: 10px 20px;
+    }
+}
+
 
 
 /* End of the css */
