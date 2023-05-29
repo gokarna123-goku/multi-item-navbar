@@ -1,9 +1,11 @@
 /*  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
@@ -19,7 +21,8 @@ li{
 .main_section{
     width: 100%;
     min-height: 110vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.65),  rgba(0, 0, 0, 0.55)), url("https://cdn.pixabay.com/photo/2023/05/10/18/39/ai-generated-7984708_1280.jpg") no-repeat;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.65),  rgba(0, 0, 0, 0.55)), url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg") no-repeat; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.65),  rgba(0, 0, 0, 0.55)), url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -72,6 +75,9 @@ nav .logo_section{
     font-size: 1.1rem;
     color: #1d1d1d;
     cursor: pointer;
+}
+#toggleButton{
+    display: none;
 }
 
 /* End of the css */
