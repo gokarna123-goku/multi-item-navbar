@@ -11,7 +11,7 @@ window.addEventListener("scroll", function () {
 
 //
 $(document).ready(function () {
-  $("#toggleIcon").click(function () {
+  $("#toggleButton").click(function () {
     $("ul").toggleClass("showNavbar");
   });
 });

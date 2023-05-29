@@ -24,6 +24,7 @@ li{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.65),  rgba(0, 0, 0, 0.55)), url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
+    overflow: hidden;
 }
 
 nav{
@@ -133,40 +134,48 @@ nav .logo_section{
     nav.fixed{
         padding: 10px 80px;
     }
+    nav ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 75px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rebeccapurple;
+    }
+    #toggleButton{
+        display: block;
+    }
+    nav a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    nav ul.showNavbar{
+        right: 0;
+    }
 }
 
 
-/* .nav_section ul{
-    position: fixed;
-    width: 300px;
-    height: 100vh;
-    background: rgba(31, 31, 31, 0.99);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    top: 75px;
-    right: -100%;
-    text-align: center;
-    transition: all 0.68s ease-out;
-    z-index: 9999;
-}
-.nav_section li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#toggleIcon{
-    display: block;
-}
-.nav_section a{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.nav_section ul.showNavbar{
-    right: 0;
-} */
 
 /* End of the css */
