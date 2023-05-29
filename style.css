@@ -50,7 +50,7 @@ nav .logo_section{
 }
 .nav_items li{
     display: inline-block;
-    margin-right: 1rem;
+    margin-left: 1.2rem;
 }
 .nav_items li a{
     font-size: 1.2rem;
@@ -58,6 +58,10 @@ nav .logo_section{
     font-weight: 400;
     letter-spacing: 0.02rem;
 }
-
+.action_button{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
 
 /* End of the css */
