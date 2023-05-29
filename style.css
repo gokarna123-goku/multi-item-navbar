@@ -51,6 +51,7 @@ nav .logo_section{
     display: block;
 }
 .nav_items li{
+    position: relative;
     display: inline-block;
     margin-left: 1.2rem;
 }
@@ -70,6 +71,31 @@ nav .logo_section{
     font-weight: 500;
     letter-spacing: 0.02rem;
 }
+
+/* Subnav styling */
+.sub_nav{
+    width: 150px;
+    height: auto;
+    background: rebeccapurple;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    border-radius: 4px;
+    display: none;
+}
+.sub_nav ul{
+    display: block;
+    margin: 20px 10px;
+}
+.sub_nav ul li{
+    display: block;
+    margin-bottom: 1.0rem;
+}
+.nav_items li:hover .sub_nav{
+    display: block;
+}
+
+/*  */
 .action_button{
     display: flex;
     align-items: center;
