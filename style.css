@@ -50,7 +50,7 @@ nav .logo_section{
 .nav_items ul{
     display: block;
 }
-.nav_items li{
+.nav_items ul li{
     position: relative;
     display: inline-block;
     margin-left: 1.2rem;
