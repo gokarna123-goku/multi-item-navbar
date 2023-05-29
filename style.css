@@ -36,6 +36,17 @@ nav{
     background: rgba(102, 51, 153, 0.4);
     padding: 20px 100px;
 }
+nav.fixed {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(0.5px);
+    background: rgba(102, 51, 153, 1);
+    padding: 10px 100px;
+}
 nav .logo_section{
     font-size: 2.2rem;
     color: #f1f1f1;
@@ -114,5 +125,41 @@ nav .logo_section{
 #toggleButton{
     display: none;
 }
+
+
+
+
+/* .nav_section ul{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background: rgba(31, 31, 31, 0.99);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 75px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.68s ease-out;
+    z-index: 9999;
+}
+.nav_section li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#toggleIcon{
+    display: block;
+}
+.nav_section a{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav_section ul.showNavbar{
+    right: 0;
+} */
 
 /* End of the css */
