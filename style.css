@@ -24,5 +24,16 @@ li{
     background-size: cover;
 }
 
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(0.5px);
+    background: rgba(102, 51, 153, 0.3);
+    padding: 20px 100px;
+}
+
 
 /* End of the css */
