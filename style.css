@@ -33,7 +33,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     backdrop-filter: blur(0.5px);
-    background: rgba(102, 51, 153, 0.3);
+    background: rgba(102, 51, 153, 0.4);
     padding: 20px 100px;
 }
 nav .logo_section{
