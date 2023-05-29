@@ -63,5 +63,15 @@ nav .logo_section{
     align-items: center;
     column-gap: 1rem;
 }
+.btn_action{
+    width: 30px;
+    height: 30px;
+    background: #cecece;
+    border-radius: 50%;
+    border: 2px solid #cecece;
+    font-size: 1.1rem;
+    color: #1d1d1d;
+    cursor: pointer;
+}
 
 /* End of the css */
