@@ -20,7 +20,7 @@ li{
 
 .main_section{
     width: 100%;
-    min-height: 130vh;
+    min-height: 120vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.65),  rgba(0, 0, 0, 0.55)), url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
@@ -34,7 +34,7 @@ nav{
     justify-content: space-between;
     backdrop-filter: blur(0.5px);
     background: rgba(102, 51, 153, 0.4);
-    padding: 20px 100px;
+    padding: 15px 100px;
 }
 nav.fixed {
     position: fixed;
@@ -43,7 +43,6 @@ nav.fixed {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    backdrop-filter: blur(0.5px);
     background: rgba(102, 51, 153, 1);
     padding: 10px 100px;
 }
@@ -127,6 +126,14 @@ nav .logo_section{
 }
 
 
+@media screen and ( max-width: 768px) {
+    nav{
+        padding: 15px 80px;
+    }
+    nav.fixed{
+        padding: 10px 80px;
+    }
+}
 
 
 /* .nav_section ul{
